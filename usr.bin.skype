@@ -90,4 +90,7 @@
 	deny @{HOME}/.compose-cache/* w,
 
 	deny /etc/passwd r,
+
+	@{HOME}/Downloads/* rw,
+	@{HOME}/Public/* r,
 }
