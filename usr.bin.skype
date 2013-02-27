@@ -93,4 +93,8 @@
 
 	@{HOME}/Downloads/* rw,
 	@{HOME}/Public/* r,
+
+	# Launch links
+	/usr/bin/xdg-open Ux,
+
 }
