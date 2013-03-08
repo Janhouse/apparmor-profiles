@@ -91,7 +91,7 @@
 
 	deny /etc/passwd r,
 
-	@{HOME}/Downloads/* rw,
+	@{HOME}/Downloads/* rwk,
 	@{HOME}/Public/* r,
 
 	# Launch links
